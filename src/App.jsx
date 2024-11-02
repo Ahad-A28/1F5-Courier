@@ -5,7 +5,7 @@ import Navbar from "../Components/Navbar"
 import About from "../pages/About"
 import Contact from "../pages/Contact"
 import Login from "../Components/Auth/Login"
-import Done from "../Components/done"
+import Done from "../Components/Done"
 import TrackingManagement from "../Components/TrackingManagement";
 import AddTrackingModal from "../Components/AddTrackingModal";
 import { addTracking, getTrackings } from "../Firebase/firebase";
