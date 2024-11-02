@@ -1,0 +1,26 @@
+/* UnderConstruction.css */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.under-construction {
+    display: none; /* Initially hidden */
+    text-align: center;
+    background-color: #fff;
+    padding: 30px;
+    border: 2px solid #ccc;
+    width: 100%;
+ 
+ 
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.visible {
+    display: block; /* Show when max-width is 600px */
+}
