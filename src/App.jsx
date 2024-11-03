@@ -9,9 +9,10 @@ import Done from "../Components/Done"
 import TrackingManagement from "../Components/TrackingManagement";
 import AddTrackingModal from "../Components/AddTrackingModal";
 import { addTracking, getTrackings } from "../Firebase/firebase";
-import UnderConstruction from "../pages/UnderConstruction";
  
-function App() {
+// import UnderConstruction from "../pages/UnderConstruction";
+ 
+function App({ logo }) {
   const [showModal, setShowModal] = useState(false);
   const [trackings, setTrackings] = useState([]);
 
@@ -38,9 +39,8 @@ function App() {
     <>
 
  
- <div className="main  backdrop-blur-md bg-black/20  p-5  h-screen    ">
- <Navbar/>
- 
+ <div className="main  backdrop-blur-md bg-black/20  p-5  h-[58rem]    ">
+ <Navbar logo={logo}/>
  <Routes>
     <Route path="/" element={<Home/>}/>
     <Route path="/about" element={<About/>}/>
@@ -60,7 +60,7 @@ function App() {
     )}
 </div>
  </div>
-    <UnderConstruction/>
+    {/* <UnderConstruction/> */}
   
     </>
  

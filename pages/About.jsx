@@ -1,6 +1,6 @@
 const About = ()=>{
     return ( <>
-    <div className="about flex flex-col items-center p-10 overflow-visible backdrop-blur-lg  bg-white/10 m-5   text-white rounded-md leading-9">
+    <div className="about flex flex-col items-center p-10  overflow-auto backdrop-blur-lg  bg-white/10  m-5   text-white rounded-md leading-9">
     <h1 className="text-3xl font-bold text-green-300 mb-4">ABOUT US</h1>
     <p className="text-lg  text-pink-100 font-semibold leading-9 capitalize ">
         Welcome to 1F5 Courier! We specialize in hassle-free delivery and indiscernible tracking, ensuring you can effortlessly search for your parcels at any time. Our commitment to reliability and efficiency sets us apart in the courier industry. With a dedicated team and innovative technology, we strive to provide a seamless experience for our customers.

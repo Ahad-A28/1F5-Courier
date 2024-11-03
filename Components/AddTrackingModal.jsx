@@ -37,8 +37,8 @@ const AddTrackingModal = ({ onClose }) => {
   };
 
   return (
-    <div className="fixed inset-0 bg-gray-500 bg-opacity-75 flex justify-center items-center">
-      <div className="bg-white p-6 rounded shadow-lg w-1/3">
+    <div className="addtracking fixed inset-0 bg-gray-500 bg-opacity-75 flex justify-center items-center">
+      <div className="bg-white p-6 rounded shadow-lg ">
         <h2 className="text-xl font-bold mb-4">Add New Tracking</h2>
         <input 
           type="text" 

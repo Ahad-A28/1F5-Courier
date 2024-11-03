@@ -4,22 +4,135 @@
 
 
 body{
-    height: 100vh;
-    width: 100vw;
+  height: 58rem;
     background-image: url('../src/assets/bgimg.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-.mobile{
+.hidden {
     display: none;
 }
- 
-@media (max-width: 600px) {
- 
+.flex {
+    display: flex;
+}
+.menu{
+    display: none;
+}
+.mobile-menu{
+    display: none;
+}
+.about{
+    z-index: 0;
+}
+.mobile-img{
+    display: none;
   
-   
-    .main{
+
+}
+.tracking-btn :focus{
+    background: #000;
+}
+
+
+@media (max-width: 700px) {
+    body{
+        height:140rem;
+          background-image: url('../src/assets/bgimg.jpeg');
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+      }
+      .nav{
         display: none;
+      }
+ .main{
+    height: 140rem;
+     
+ }
+    .links{
+        display:  none;
+     }
+   
+     .menu{
+        display: block;
+    }
+ .about{
+    
+    margin-top: 8rem;
+ margin-left: 0;
+
+padding: 2rem;
+    width:100% ;
+ 
+ }
+ 
+.contact form{
+    margin-top: 6rem;
+    margin-left: 0;
+    padding: 2rem;
+    width: 100% ;
+ 
+}
+.login form{
+    margin-top: 10rem;
+    margin-left: 0;
+    padding: 2rem;
+    width: 100% ;
+ 
+}
+table {
+    width: auto; /* Change width to auto for responsiveness */
+    overflow-x: auto; /* Allow horizontal scrolling */
+    display: block; /* Make the table a block element */
+}
+.addtracking{
+ height: 30%;
+    margin-left: 0;
+    padding: 2rem;
+    width: 100% ;
+ 
+}
+    .mobile-menu{
+        display: flex;
+    
+ z-index: 0;
+      
+      
+    }
+    .mobile-links{
+        flex-wrap: wrap;
+        width: 100%;
+        
+        padding: 1rem;
+        
+        z-index: 999;
+ 
+ gap: 30px;
+ color: white;
+ 
+
+    }
+    .mobile-img{
+        display: flex;
+        justify-content: center;
+ 
+    }
+    .done{
+        margin-top: 6rem;
+        margin-left: 0;
+        width: 100% ;
+    }
+    .done p{
+        font-size: 1.5rem;
+        width: 100% ;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .done button{
+        font-size: 1.5rem;
+        width: 100% ;
+        text-align: center;
+        margin-bottom: -3rem;
     }
    }

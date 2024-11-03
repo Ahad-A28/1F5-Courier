@@ -51,7 +51,7 @@ function Home() {
     return (
       <div className="tracking-card bg-white p-10 rounded-lg shadow-lg flex flex-col">
         <div className="flex justify-between items-center mb-4">
-          <h1 className="text-3xl font-bold">Tracking #{trackingData.trackingNumber}</h1>
+          <h1 className="text-2xl font-bold">Tracking #{trackingData.trackingNumber}</h1>
           <div className="flex items-center">
             <i className={`fas ${trackingData.status === 'Delivered' ? 'fa-check-circle text-green-500' : trackingData.status === 'In Transit' ? 'fa-truck text-blue-500' : 'fa-exclamation-circle text-red-500'} text-5xl`}></i>
             <span className="text-lg font-semibold ml-2">{trackingData.status}</span>
@@ -93,19 +93,19 @@ function Home() {
 
   return (
     <>
-      <div className="home text-white flex flex-col justify-center items-center gap-5 w-[90vw] h-[40.3vw]">
+      <div className="home text-white flex flex-col justify-center items-center gap-5  mt-12">
         <h1 className="text-4xl font-bold">1F5 COURIER</h1>
-        <h1 className="text-4xl font-bold text-green-400">{text.toLocaleUpperCase()}<span className="text-white"><Cursor /></span></h1>
-        <p className="sub-text text-xl text-pink-300 uppercase font-semibold">hassle-Free Delivery With Us</p>
+        <h1 className="text-4xl font-bold text-green-500">{text.toLocaleUpperCase()}<span className="text-white"><Cursor /></span></h1>
+        <p className="sub-text text-xl text-[#DD80E9] uppercase font-semibold">hassle-Free Delivery With Us</p>
         <input
           type="text"
           placeholder="Tracking No"
-          className="p-2 w-[20rem] font-semibold outline-none rounded-md text-black"
+          className="p-2  font-semibold outline-none rounded-md text-black"
           value={trackingNumber}
           onChange={(e) => setTrackingNumber(e.target.value)}
         />
         <button
-          className="bg-pink-500 text-white px-4 py-2 rounded-md font-bold"
+          className="bg-[#DD80E9] tracking-btn text-white px-4 py-2 rounded-md font-bold mb-5"
           onClick={handleTrack}
         >
           Track Now

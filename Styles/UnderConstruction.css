@@ -1,4 +1,4 @@
-/* UnderConstruction.css */
+/*  
 body {
     margin: 0;
     padding: 0;
@@ -6,7 +6,7 @@ body {
 }
 
 .under-construction {
-    display: none; /* Initially hidden */
+    display: none;  
     text-align: center;
     background-color: #fff;
     padding: 30px;
@@ -22,5 +22,4 @@ body {
 }
 
 .visible {
-    display: block; /* Show when max-width is 600px */
-}
+    display: block;  } */

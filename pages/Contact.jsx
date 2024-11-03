@@ -48,8 +48,8 @@ function Contact() {
   return ( 
     <>
    
- <div className="form flex justify-center mt-6 w-full">
-    <form className="flex flex-col  w-1/2 h-[25rem]  p-10 mt-10 backdrop-blur-lg  bg-black/40  rounded-xl" onSubmit={onSubmit}>
+ <div className="contact flex justify-center mt-6 ">
+    <form className="flex flex-col  w-1/2    p-10 mt-10 backdrop-blur-lg  bg-black/40  rounded-xl" onSubmit={onSubmit}>
       <h1 className="text-3xl text-center mb-5 font-bold text-green-300"><i className="fa-solid fa-envelope mr-2"></i>CONTACT US</h1>
         <input className="mb-6 text-lg  bg-zinc-600 rounded-lg p-2  text-white font-semibold  outline-none" type="text" name="name" placeholder="Name"/>
         <input className="mb-6 text-lg bg-zinc-600 rounded-lg p-2  text-white font-semibold  outline-none" placeholder="Email" type="email" name="email"/>
